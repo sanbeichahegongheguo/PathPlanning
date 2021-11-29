@@ -1,8 +1,16 @@
 Overview
 ------
-This repository implements some common path planning algorithms used in robotics, including Search-based algorithms and Sampling-based algorithms. We designed animation for each algorithm to display the running process. The related papers are listed in [Papers](https://github.com/zhm-real/PathPlanning#papers).
+This repository implements some common path planning algorithms used in robotics, including Search-based algorithms and Sampling-based algorithms. 
 
-Directory Structure
+We designed animation for each algorithm to display the running process. 
+
+The related papers are listed in [Papers](https://github.com/zhm-real/PathPlanning#papers).
+
+>   常见的路径规划算法集合。项目包含了 Python 代码实现、运行过程动画以及相关论文。
+
+[TOC]
+
+Directory Structure/目录结构
 ------
     .
     └── Search-based Planning
@@ -34,7 +42,8 @@ Directory Structure
         └── Batch Informed Trees (BIT*)
     └── Papers
 
-## Animations - Search-Based
+## Animations - Search-Based/基于搜索的动画
+
 ### Best-First & Dijkstra
 <div align=right>
 <table>
@@ -44,8 +53,12 @@ Directory Structure
   </tr>
 </table>
 </div>
+![](./Search_based_Planning/gif/BF.gif)
+
+![](/Search_based_Planning/gif/Dijkstra.gif)
 
 ### A* and A* Variants
+
 <div align=right>
 <table>
   <tr>
@@ -78,8 +91,25 @@ Directory Structure
   </tr>
 </table>
 </div>
+![](/Search_based_Planning/gif/Astar.gif)
+![](/Search_based_Planning/gif/Bi-Astar.gif)
 
-## Animation - Sampling-Based
+![](/Search_based_Planning/gif/RepeatedA_star.gif)
+![](/Search_based_Planning/gif/ARA_star.gif)
+
+![](/Search_based_Planning/gif/LRTA_star.gif)
+![](/Search_based_Planning/gif/RTAA_star.gif)
+
+![](/Search_based_Planning/gif/D_star.gif)
+![](/Search_based_Planning/gif/LPAstar.gif)
+
+![](/Search_based_Planning/gif/ADstar_small.gif)
+![](/Search_based_Planning/gif/ADstar_sig.gif)
+
+
+
+## Animation - Sampling-Based/基于采样的动画
+
 ### RRT & Variants
 <div align=right>
 <table>
@@ -113,9 +143,27 @@ Directory Structure
   </tr>
 </table>
 </div>
+![](/Sampling_based_Planning/gif/RRT_2D.gif)
+![](/Sampling_based_Planning/gif/Goal_biasd_RRT_2D.gif)
 
-## Papers
-### Search-base Planning
+![](/Sampling_based_Planning/gif/RRT_CONNECT_2D.gif)
+![](/Sampling_based_Planning/gif/Extended_RRT_2D.gif)
+
+![](/Sampling_based_Planning/gif/Dynamic_RRT_2D.gif)
+![](/Sampling_based_Planning/gif/RRT_STAR2_2D.gif)
+
+![](/Sampling_based_Planning/gif/RRT_STAR_SMART_2D.gif)
+![](/Sampling_based_Planning/gif/FMT.gif)
+
+![](/Sampling_based_Planning/gif/INFORMED_RRT_STAR_2D3.gif)
+![](/Sampling_based_Planning/gif/BIT2.gif)
+
+
+
+## Papers/论文
+
+### Search-base Planning/基于搜索规划
+
 * [A*: ](https://ieeexplore.ieee.org/document/4082128) A Formal Basis for the heuristic Determination of Minimum Cost Paths
 * [Learning Real-Time A*: ](https://arxiv.org/pdf/1110.4076.pdf) Learning in Real-Time Search: A Unifying Framework
 * [Real-Time Adaptive A*: ](http://idm-lab.org/bib/abstracts/papers/aamas06.pdf) Real-Time Adaptive A*
@@ -129,7 +177,8 @@ Directory Structure
 * [Potential Field, ](https://journals.sagepub.com/doi/abs/10.1177/027836498600500106) [[PPT]: ](https://www.cs.cmu.edu/~motionplanning/lecture/Chap4-Potential-Field_howie.pdf) Real-Time Obstacle Avoidance for Manipulators and Mobile Robots
 * [Hybrid A*: ](https://ai.stanford.edu/~ddolgov/papers/dolgov_gpp_stair08.pdf) Practical Search Techniques in Path Planning for Autonomous Driving
 
-### Sampling-based Planning
+### Sampling-based Planning/基于采样规划
+
 * [RRT: ](http://msl.cs.uiuc.edu/~lavalle/papers/Lav98c.pdf) Rapidly-Exploring Random Trees: A New Tool for Path Planning
 * [RRT-Connect: ](http://www-cgi.cs.cmu.edu/afs/cs/academic/class/15494-s12/readings/kuffner_icra2000.pdf) RRT-Connect: An Efficient Approach to Single-Query Path Planning
 * [Extended-RRT: ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1.7617&rep=rep1&type=pdf) Real-Time Randomized Path Planning for Robot Navigation
@@ -147,3 +196,5 @@ Directory Structure
 * [Batch Informed Trees (BIT*): ](https://arxiv.org/abs/1405.5848) Sampling-based Optimal Planning via the Heuristically Guided Search of Implicit Random Geometric Graphs
 * [Advanced Batch Informed Trees (ABIT*): ](https://arxiv.org/abs/2002.06589) Sampling-Based Planning with Advanced Graph-Search Techniques ((ICRA) 2020)
 * [Adaptively Informed Trees (AIT*): ](https://arxiv.org/abs/2002.06599) Fast Asymptotically Optimal Path Planning through Adaptive Heuristics ((ICRA) 2020)
+
+<End>
