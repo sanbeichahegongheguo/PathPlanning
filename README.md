@@ -53,9 +53,7 @@ Directory Structure/目录结构
   </tr>
 </table>
 </div>
-![](./Search_based_Planning/gif/BF.gif)
 
-![](/Search_based_Planning/gif/Dijkstra.gif)
 
 ### A* and A* Variants
 
