@@ -91,21 +91,6 @@ Directory Structure/目录结构
   </tr>
 </table>
 </div>
-![](/Search_based_Planning/gif/Astar.gif)
-![](/Search_based_Planning/gif/Bi-Astar.gif)
-
-![](/Search_based_Planning/gif/RepeatedA_star.gif)
-![](/Search_based_Planning/gif/ARA_star.gif)
-
-![](/Search_based_Planning/gif/LRTA_star.gif)
-![](/Search_based_Planning/gif/RTAA_star.gif)
-
-![](/Search_based_Planning/gif/D_star.gif)
-![](/Search_based_Planning/gif/LPAstar.gif)
-
-![](/Search_based_Planning/gif/ADstar_small.gif)
-![](/Search_based_Planning/gif/ADstar_sig.gif)
-
 
 
 ## Animation - Sampling-Based/基于采样的动画
@@ -143,20 +128,6 @@ Directory Structure/目录结构
   </tr>
 </table>
 </div>
-![](/Sampling_based_Planning/gif/RRT_2D.gif)
-![](/Sampling_based_Planning/gif/Goal_biasd_RRT_2D.gif)
-
-![](/Sampling_based_Planning/gif/RRT_CONNECT_2D.gif)
-![](/Sampling_based_Planning/gif/Extended_RRT_2D.gif)
-
-![](/Sampling_based_Planning/gif/Dynamic_RRT_2D.gif)
-![](/Sampling_based_Planning/gif/RRT_STAR2_2D.gif)
-
-![](/Sampling_based_Planning/gif/RRT_STAR_SMART_2D.gif)
-![](/Sampling_based_Planning/gif/FMT.gif)
-
-![](/Sampling_based_Planning/gif/INFORMED_RRT_STAR_2D3.gif)
-![](/Sampling_based_Planning/gif/BIT2.gif)
 
 
 
